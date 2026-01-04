@@ -1,0 +1,161 @@
+<!-- <!DOCTYPE html>
+<html>
+    <head>
+        <link href="style1.css" rel="stylesheet" type="text/css" />
+        <style>
+            body{
+                font-family: Arial, sans-serif;
+                background-color: #0D1117;
+                color: #c9d1d9
+            }
+            h1{
+                color: rgb(92, 126, 185);
+            }
+            a{
+                color: blue;
+                text-decoration: none;
+            }
+            a:hover{
+                color: grey
+            }
+            /* Child selector */
+
+            ul > li{
+                font-weight: bold;
+
+            }
+            h1 + p {
+                background-color: #161B22;
+                padding: 10px;
+                border-radius: 5px;
+            }
+            /* :hover Pseudo-class */
+            ul li:hover {
+                color: #4F8CC9;
+            }
+            /* :nth-child(n) Pseudo-class */
+            ul li:nth-child(3) {
+                background-color: #21262D;
+            }
+            /* :not(selector) Pseudo-class */
+            p:not(:first-of-type) {
+                text-decoration: underline;
+            }
+            /* :: before Pseudo-element */
+            ul li::before {
+            content: "->"
+            }
+            /* :: after Pseudo-element */
+            a::after {
+            content: "->"
+
+            }
+            /* :: first-letter Pseudo-element */
+            p::first-letter {
+                font-size: 200%;
+                color: #FF7B72;
+
+            }
+
+        </style>
+    </head>
+    <body>
+        <h1>WELCOME TO SPACE EXPLORER CLUB</h1>
+        <ul>
+            <li>Moon mission</li>
+            <li>Mass rovers</li>
+            <li> international space station</li>
+            <li>telescopes and stars</li>
+            <li>Black hole mysteris</li>
+
+        </ul>
+        <p>Space exploration has always
+            captivated human imagination.
+            It's a journey to the unknown! </p>
+
+        <p>From the Moon to distant galaxies,
+            we continue to explore the
+            vastness of space .</p>
+        <a href="#">Join our Mission</a>
+        <a href="#">Latest Space News</a>
+        <a href="#">Gallery of the Universe</a>
+    </body>
+</html> -->
+
+
+
+
+<!-- <!DOCTYPE html>
+<html>
+    <head>
+        <style>
+        /* unvisited link */
+        a:link {
+        color: red;
+        }
+        a:hover {
+        color: hotpink;
+        font-size:30px;
+        text-decoration:underline;
+        
+        }
+        </style>
+    </head>
+        <body>
+        <h2>Codingal</h2>
+        <a href="https://google.com/"> Click Me</a>
+    </body>
+</html> -->
+
+ 
+
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        
+        form {
+            box-shadow: 0 1px 3px rgba(50, 50, 93, .15), 0 1px 0 blue;
+            border: 1px solid #d7d7d7;
+            background-color: red;
+        }
+        input[type=text],
+        input[type=password],
+        input[type=email]
+        {
+            width: 100%;
+            display: inline-block;
+            border: 1px solid blue;
+            box-sizing: border-box;
+            box-shadow: 0 1px 3px rgba(50, 50, 93, .15), 0 1px 0 rgba(0, 0, 0, .02);
+        }
+        input:focus {
+            background-color:gold;
+        }
+        button {
+            background-color: #4CAF50;
+            color: #FFF;
+            border: none;
+            cursor: pointer;
+            box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .26);
+                
+        }
+    </style>
+</head>
+<body>
+    <h2>Registration Form</h2>
+    <form>
+        <div class="container">
+            <label>Username</label>
+            <input type="text" name="uname" required placeholder="Enter your name"><br>
+            <label> email </label><br>
+            <input type="email" name="email" required>
+            <br>
+            <label>Password</label>
+            <input type="password" name="pass" required>
+            <button type="submit">Sign in</button>
+        </div>
+    </form>
+
+</body>
+</html>
