@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>   
+    <title>Data types</title>  
+  </head>
+  <body>
+    <h1>JavaScript Data types</h1>
+    <script>
+      var a = 8;
+      var b = 10;
+      var d = null;
+      var e; // undefined variable
+      {
+        let a = 2; 
+        // Here value of a is 2 but only within the block
+        const b = 8;
+      }
+      document.write("a and b are equal : " + (a==b));
+      document.write("<br>");
+      document.write("The value of d is : " + d);
+      document.write("<br>");
+      document.write("The value of e is : " + e);
+      document.write("<br>");
+      document.write("The value of a is : " +a);
+      document.write("<br>");
+      document.write("The value of b is : " +b);
+    </script>
+  </body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<body>
+  <p>Click the button to get a time-based greeting:</p>
+  <button onclick="myFunction()">Try it</button>
+  <p id="hour"></p>
+  <p id="greet"></p>
+  <script>
+      function myFunction() {
+        var greeting;
+        var time = new Date().getHours();
+        
+        if (time < 10) {
+          greeting = "Good morning";
+        } 
+        else if (time < 20) {
+          greeting = "Good day";
+        } 
+        else {
+          greeting = "Good evening";
+        }
+        document.getElementById("hour").innerHTML = "Current Hour is : " + time;
+        document.getElementById("greet").innerHTML = greeting;
+    }
+  </script>
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html>
+  <body>
+    <h2>JavaScript While Loop</h2>
+    <p id="number"></p>
+    <script>
+      var text = "";
+      var i = 0;
+      while (i < 10) {
+        text += "<br>The number is " + i;
+        i++;
+      }
+      document.getElementById("number").innerHTML = text;
+    </script>
+  </body>
+</html>
